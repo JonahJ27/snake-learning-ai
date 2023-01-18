@@ -20,6 +20,7 @@ This AI uses Pytorch to learn how to play the snake game.
 <p align="center">
 	<img src="images/snake_game.png">
 </p>
+
 ## Usage
 - To use the agent, run `agent.py`. 
 - The play snake yourself, run `human_snake.py`.
@@ -28,5 +29,6 @@ This AI uses Pytorch to learn how to play the snake game.
 <p align="center">
 	<img src="images/training_graph.png">
 </p>
+
 - To change the physical network, use `model.py`.
 - To change the batch size, learning rate, and vision range `agent.py`.
