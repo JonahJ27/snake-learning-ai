@@ -19,7 +19,7 @@ This AI uses Pytorch to learn how to play the snake game.
 - The snake grows when it eats an apple and dies when it hits either a wall or itself.
 <p align="center">
 	<img src="images/snake_game.png" width = "40%" height = "40%">
-	The agent playing the snake game.
+	<div style='width: 130px; text-align: center;'>The agent in the process of training.</div>
 </p>
 
 ## Usage
@@ -27,10 +27,9 @@ This AI uses Pytorch to learn how to play the snake game.
 - The play snake yourself, run `human_snake.py`.
 - To change the speed, rewards, block size, and board size, use `snake.py`.
 - To change the graph you get, use `helper.py`.
-<figure>
-  <img src="images/training_graph.png" width = "40%" height = "40%">
-  <figcaption>The agent in the process of training.</figcaption>
-</figure>
+<p align="center">
+	<img src="images/training_graph.png" width = "40%" height = "40%">
+</p>
 
 - To change the physical network, use `model.py`.
 - To change the batch size, learning rate, and vision range `agent.py`.
