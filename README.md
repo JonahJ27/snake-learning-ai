@@ -17,12 +17,16 @@ This AI uses Pytorch to learn how to play the snake game.
 ## Game
 - This is a 17x17 snake board. 
 - The snake grows when it eats an apple and dies when it hits either a wall or itself.
-<img src="images/snake_game.png">
+<p align="center">
+	<img src="images/snake_game.png">
+</p>
 ## Usage
 - To use the agent, run `agent.py`. 
 - The play snake yourself, run `human_snake.py`.
 - To change the speed, rewards, block size, and board size, use `snake.py`.
 - To change the graph you get, use `helper.py`.
-<img src="images/training_graph.png">
+<p align="center">
+	<img src="images/training_graph.png">
+</p>
 - To change the physical network, use `model.py`.
 - To change the batch size, learning rate, and vision range `agent.py`.
