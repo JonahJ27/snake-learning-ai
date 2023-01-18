@@ -27,9 +27,10 @@ This AI uses Pytorch to learn how to play the snake game.
 - The play snake yourself, run `human_snake.py`.
 - To change the speed, rewards, block size, and board size, use `snake.py`.
 - To change the graph you get, use `helper.py`.
-<p align="center">
-	<img src="images/training_graph.png" width = "40%" height = "40%">
-</p>
+<figure>
+  <img src="images/training_graph.png" width = "40%" height = "40%">
+  <figcaption>The agent in the process of training.</figcaption>
+</figure>
 
 - To change the physical network, use `model.py`.
 - To change the batch size, learning rate, and vision range `agent.py`.
