@@ -1,13 +1,6 @@
 # snake-learning-ai
 This AI uses Pytorch to learn how to play the snake game.
 
-## Game
-- This is a 17x17 snake board. 
-- The snake grows when it eats an apple and dies when it hits either a wall or itself.
-<p align="center">
-	<img src="images/snake_game.png" width = "50%" height = "50%">
-</p>
-
 ## Network
 - The network is a Deep Q-Learning Network (DQN).
 - Inputs:
@@ -20,6 +13,13 @@ This AI uses Pytorch to learn how to play the snake game.
 	- +100: for winning.
 	- -15: for losing.
 	- -0.01: per play step (to encourage the snake to progress instead of stalling)
+
+## Game
+- This is a 17x17 snake board. 
+- The snake grows when it eats an apple and dies when it hits either a wall or itself.
+<p align="center">
+	<img src="images/snake_game.png" width = "40%" height = "40%">
+</p>
 
 ## Usage
 - To use the agent, run `agent.py`. 
