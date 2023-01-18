@@ -18,7 +18,7 @@ This AI uses Pytorch to learn how to play the snake game.
 - This is a 17x17 snake board. 
 - The snake grows when it eats an apple and dies when it hits either a wall or itself.
 <p align="center">
-	<img src="images/snake_game.png">
+	<img src="images/snake_game.png" width = "30%" height = "30%">
 </p>
 
 ## Usage
@@ -27,7 +27,7 @@ This AI uses Pytorch to learn how to play the snake game.
 - To change the speed, rewards, block size, and board size, use `snake.py`.
 - To change the graph you get, use `helper.py`.
 <p align="center">
-	<img src="images/training_graph.png">
+	<img src="images/training_graph.png" width = "30%" height = "30%">
 </p>
 
 - To change the physical network, use `model.py`.
