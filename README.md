@@ -19,6 +19,7 @@ This AI uses Pytorch to learn how to play the snake game.
 - The snake grows when it eats an apple and dies when it hits either a wall or itself.
 <p align="center">
 	<img src="images/snake_game.png" width = "40%" height = "40%">
+	The agent playing the snake game.
 </p>
 
 ## Usage
